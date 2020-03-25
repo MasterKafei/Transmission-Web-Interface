@@ -1,0 +1,13 @@
+<aside class="main-sidebar">
+    <section class="sidebar">
+        <ul class="sidebar-menu tree" data-widget="tree">
+            {% for item in items %}
+                {% if not item['is_header']|default(false) %}
+                    {% include 'Widget/NavBar/Default/Tabulation/base.html.twig' with {'item': item} %}
+                {% else %}
+                    {% include 'Widget/NavBar/Default/Header/base.html.twig' with {'item': item} %}
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </section>
+</aside>

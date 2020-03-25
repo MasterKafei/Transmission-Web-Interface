@@ -1,0 +1,30 @@
+{
+    "name": "escape-hunt-planning",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://gitlab.com/MasterKafei/escape-hunt-planning.git",
+    "author": "MasterKafei <MasterKafei59@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.10.2",
+        "@fullcalendar/core": "^4.3.1",
+        "@fullcalendar/daygrid": "^4.3.0",
+        "@fullcalendar/resource-timeline": "^4.3.0",
+        "@symfony/webpack-encore": "^0.22.1",
+        "admin-lte": "^2.4.18",
+        "bootstrap": "^3.4.1",
+        "bootstrap-colorpicker": "^3.1.2",
+        "bootstrap-datepicker": "^1.9.0",
+        "ckeditor": "^4.12.1",
+        "core-js": "2",
+        "datatables.net-dt": "^1.10.19",
+        "daterangepicker": "github:dangrossman/daterangepicker",
+        "eonasdan-bootstrap-datetimepicker": "git+https://github.com/Eonasdan/bootstrap-datetimepicker.git",
+        "font-awesome": "^4.7.0",
+        "fs-readdir-recursive": "^1.1.0",
+        "fullcalendar": "^3.10.1",
+        "icheck": "^1.0.2",
+        "jquery": "^3.4.1",
+        "pace": "^0.0.4"
+    }
+}

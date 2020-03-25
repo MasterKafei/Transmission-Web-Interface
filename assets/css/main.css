@@ -1,0 +1,14 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@import '../../node_modules/admin-lte/dist/css/AdminLTE.min.css';
+@import '../../node_modules/admin-lte/dist/css/skins/_all-skins.min.css';
+@import '../../node_modules/icheck/skins/all.css';
+@import '../../node_modules/@fullcalendar/core/main.min.css';
+@import '../../node_modules/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css';
+.main-header .sidebar-toggle:before {
+    font-family: "Font Awesome\ 5 Free";
+    font-weight: 900;
+    content: "\F0C9";
+}
+
+@import 'alert.css';

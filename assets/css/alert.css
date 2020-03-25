@@ -1,0 +1,83 @@
+/* dyosis Alert Box */
+.dyosis-alert-box {
+    z-index: 2000;
+    width: 550px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.dyosis-alert {
+    width: 550px;
+    background-color: #f6f6f8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-left: 8px solid #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 550px;
+    animation: slide-margin 1s forwards;
+    animation-delay: 2s;
+    transition: 1s;
+}
+
+.dyosis-alert-box .dyosis-alert:nth-child(3) { animation-delay: 0.5s }
+.dyosis-alert-box .dyosis-alert:nth-child(2) { animation-delay: 1s }
+.dyosis-alert-box .dyosis-alert:nth-child(1) { animation-delay: 1.5s }
+
+@media(max-width:576px){
+    .dyosis-alert {
+        margin-bottom: 0px;
+        border: none;
+        border-top: 8px solid #333;
+        width: 100%;
+    }
+}
+
+.dyosis-alert .alert-text {
+    border-left: 2px solid #333;
+}
+
+.dyosis-alert .alert-button {
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+    background-color: #333333;
+    border-color: #323232;
+}
+
+.dyosis-alert .alert-button:hover {
+    color: whitesmoke;
+    background-color: #444444;
+    border-color: #333333;
+}
+
+.dyosis-alert .alert-button:focus, .dyosis-alert .alert-button.focus {
+    box-shadow: 0 0 0 0.2rem rgba(51, 51, 51, 0.204);
+}
+
+.dyosis-alert-success {
+    border-color: #28a745;
+}
+
+.dyosis-alert-danger {
+    border-color: #dc3545;
+}
+
+.dyosis-alert-secondary {
+    border-color: #545b62;
+}
+
+.dyosis-alert-primary {
+    border-color: #007bff;
+}
+
+.dyosis-alert-warning {
+    border-color: #d39e00;
+}
+
+.dyosis-alert-info {
+    border-color: #117a8b;
+}
+
+@keyframes slide-margin {
+    100% { margin-left: 0px; }
+}
